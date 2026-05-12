@@ -1,0 +1,10 @@
+with open("NAME.txt", "r", encoding="utf-8") as file:
+#
+    line = [r.strip() for r in f.readlines() if r.strip()]
+#
+    content = file.readline().split()
+#
+    content = file.read().strip()
+
+Have a great day!!
+    
